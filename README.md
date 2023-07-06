@@ -27,6 +27,9 @@ The extra `vulkan` folder is so `spirv-hopper` doesn't try and run against all t
     - Ran on 5/23/2023
 - naga/remaps
     - These are using [Naga](https://github.com/gfx-rs/naga) to take some of the SPIR-V in this repo as input and re-output it
+- glslang
+    - There are from the [glslang gtests suite](https://github.com/KhronosGroup/glslang/tree/main/gtests)
+    - Some tests produce invalid SPIR-V and were discarded
 - gl_cts
     - Used Zink/ANGLE to run shader focused GL CTS tests
     - The following are how the CTS folders are broken up:
