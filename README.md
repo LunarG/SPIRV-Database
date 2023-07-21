@@ -13,6 +13,9 @@ The extra `vulkan` folder is so `spirv-hopper` doesn't try and run against all t
 - SaschaWillemsVulkan
     - There are the shaders from https://github.com/SaschaWillems/Vulkan/
     - 240a56e44108d480bb3b01444b26552ba70857cc (5/23/2023)
+- bigwheels
+    - There are the shaders from https://github.com/google/bigwheels
+    - 6ae87232168b64ab97b3e99a8837cd7c4a1ca40d (7/21/2023)
 - clspv
     - These are generated when running the test suite in https://github.com/google/clspv
         - used `ctest` and took output binaries
@@ -41,4 +44,7 @@ The extra `vulkan` folder is so `spirv-hopper` doesn't try and run against all t
         - `*shader_atomic_counters*:*core.layout_binding*:*shader_integer_mix*:*shader_storage_buffer_object*:*compute_shader*:*gpu_shader5*:*shading_language_420pack*`
     - shader_gl46
         - `KHR-GL46.shaders30*:KHR-GL46.gpu_shader_fp64*:KHR-GL46.texture_gather*:KHR-GL46.shader_*:KHR-GL46.gl_spirv*`
-
+- nzsl (Nazara Shading Language)
+    - From https://github.com/NazaraEngine/ShaderLang
+    - https://github.com/NazaraEngine/NazaraEngine/tree/main/src/Nazara/Graphics/Resources/Shaders
+    - https://github.com/NazaraEngine/NazaraEngine/tree/main/assets/shaders
